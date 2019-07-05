@@ -1,3 +1,5 @@
+##Returns the number of vowels from the provided input
+
 def function(text):
     vowels = 'aeiouAEIOU'
     number = 0
