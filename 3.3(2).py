@@ -1,3 +1,5 @@
+##prints an inputed string backwards
+
 def function(text):
     return (text[::-1])
 def main():
