@@ -1,3 +1,5 @@
+##function that counts the amount of lines in a file
+
 def CountLines(fileName):
     i=0
     file = open(fileName)
