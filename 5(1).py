@@ -1,3 +1,5 @@
+##function that reads the first n lines of the file
+
 def ReadLines(fileName,n):
     i = 0
     file = open(fileName)
