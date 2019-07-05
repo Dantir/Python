@@ -1,3 +1,5 @@
+##creates a list of random elements and specific range
+
 import random
 def function (n,k):
     L = []
