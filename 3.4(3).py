@@ -1,3 +1,5 @@
+##returns arithmetical and geometrical value of the list
+
 import math
 def function (numbers):
     total = 0
