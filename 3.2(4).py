@@ -1,3 +1,4 @@
+##Converts Fahrenheit to Celsius and vice versa until the user writes 0
 i=1
 while i!=0:
     i = int(input("\nWhat conversion will you do?\nCelsius to Fahrenheit-1\nFahrenheit to Celsius-2\nif you want to exit press 0\n"))
