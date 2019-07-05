@@ -1,3 +1,5 @@
+##function that reads the file line by line, sorts them by size and writes them to another file
+
 def function(inpu,outpu):
     buffer = []
     read = open(inpu,'r')
