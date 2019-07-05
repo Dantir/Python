@@ -1,3 +1,5 @@
+##checks if the lists have the same size and the same elements (but the order of elements can be different)
+
 def equals(a,b):
     if (set(a)!=set(b)):
         print("The lists are not equal")
