@@ -1,4 +1,5 @@
 ##the program that guesses the number user is thinking about
+
 import random
 i=input("Please guess a number between 1 and 10 (Press ENTER to continue)")
 i=0
