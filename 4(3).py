@@ -1,3 +1,5 @@
+##creates a matrix of random elements and specific range
+
 import random
 def function (m,n,k):
     Matrix = [[random.randrange(0,k) for x in range(m)]for y in range(n)]
