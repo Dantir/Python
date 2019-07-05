@@ -1,3 +1,5 @@
+## a quessing game where user must guess a number
+
 import random
 def function(n):
     k=0
