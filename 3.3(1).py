@@ -1,3 +1,5 @@
+##Calculates the geometrical mean of two numbers
+
 import math
 def function(num1,num2):
     num = math.sqrt(int(num1)*int(num2))
