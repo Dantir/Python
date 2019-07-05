@@ -1,3 +1,5 @@
+##calculates the amount of negative numbers in list
+
 def function (numbers):
     count = 0;
     for x in numbers:
