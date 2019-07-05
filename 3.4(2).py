@@ -1,3 +1,5 @@
+##writes perticular sequences using range()
+
 list1 = []
 print(len(list1))
 #i = range(1,11) #a. 
