@@ -1,3 +1,8 @@
+##Creates a dictionary that contains the number of each letter
+##Finds the most frequent letter
+##Calculates the number vowels
+##Creates a new dictionary that contains the number of vowels and consonants
+
 def function(string):
     D = dict()
     string = string.lower()
