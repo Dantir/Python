@@ -1,3 +1,5 @@
+##calculates the factorial of inputed number
+
 def factorial(num):
     finalnum=1
     for x in range(num):
