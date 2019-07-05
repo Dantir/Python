@@ -1,3 +1,5 @@
+##prints all the vowels in the string in Uppercase
+
 def function(text):
     vowels = 'aeiou'
     newtext=[]
