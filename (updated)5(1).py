@@ -1,15 +1,16 @@
 ##function that reads the first n lines of the file
 
 def ReadLines(fileName,n):
-    i = 0
+    count=0
     file = open(fileName)
     for line in file:
-        if i<n:
-            print(line)
-            i+=1
+        print(line.strip())
+        count+=1
+        if(count>=n):
+            break
     file.close()
 def main():
     file = ('data.txt')
-    number = 2
+    number = 3
     ReadLines(file,number)
 main()
