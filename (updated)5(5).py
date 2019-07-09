@@ -7,11 +7,17 @@ def function(inpu,outpu):
     for line in read:
         buffer.append(line)
     print(buffer)
-    i=1
-    while(i<=len(buffer)-1):
-        if (len(buffer[i-1])>=len(buffer[i])):
-            buffer[i-1],buffer[i]=buffer[i],buffer[i-1]
+    i=0
+    indent = 1
+    while(i<len(buffer)-1):
+        while(indent<len(buffer)-i):
+            if (len(buffer[i])>=len(buffer[i+indent])):
+                #print (buffer[i]+buffer[i+indent]+'\n')
+                buffer[i],buffer[i+indent]=buffer[i+indent],buffer[i]
+                #print (buffer[i]+buffer[i+indent]+'\n')
+            indent+=1
         i+=1
+        indent=1
     print(buffer)
     for element in buffer:
         write.write(element)
@@ -22,3 +28,4 @@ def main():
     outpu= 'final.txt'
     function(inpu,outpu)
 main()
+
